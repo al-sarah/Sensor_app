@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Accel"
+            android:icon="@drawable/ic_3d_rotation_black_24dp"
+            android:title="Accelerometer" />
+        <item
+            android:id="@+id/Gyro"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Gyroscope" />
+        <item
+            android:id="@+id/prox"
+            android:icon="@drawable/ic_vibration_black_24dp"
+            android:title="Proximity" />
+
+        <item
+            android:id="@+id/shake"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Shaker" />
+
+
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Map" />
+        <item
+            android:id="@+id/data"
+            android:icon="@drawable/ic_arrow_downward_black_24dp"
+            android:title="Gyroscope Data" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
