@@ -110,6 +110,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         }
          else if (id == R.id.map) {
+          Intent intent=new Intent(MainActivity.this,MapsActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.data) {
             Intent intent=new Intent(MainActivity.this,Gyroscope.class);
